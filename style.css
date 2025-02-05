@@ -1,0 +1,26 @@
+
+body{
+  color: black;
+  margin: 0;
+}
+.mainBody{
+  left: 20%;
+  background-color: #8bcc85;
+  padding: 10px;
+  max-width: 60%;
+  text-align: left;
+  position: relative;
+  font-size: large;
+}
+a{
+  color: aquamarine;
+}
+h2{
+  color: #12300f
+}
+canvas{
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:-1;
+}
