@@ -6,7 +6,7 @@ window.addEventListener("resize", () => resizeCanvas())
 
 function resizeCanvas(){
   canvas.width = window.innerWidth
-  canvas.height = 1650
+  canvas.height = 2050
 }
 let gravityAcc = 0.45
 let balls = []
