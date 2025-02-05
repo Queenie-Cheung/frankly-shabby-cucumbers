@@ -22,7 +22,10 @@ function drawLoop () {
 
 function updateState () {
   for (let ball of balls) {
-    ball.y+=5
+    ball.y+=10///balls.length*20
+    // if(ball.y-ball.r>canvas.height+10){
+    //   balls = balls.filter((a)=>a!=ball)
+    // }
   }
 }
 
@@ -47,7 +50,7 @@ class Ball {
     r = random(50,5)
     x = random(canvas.width)
     //x = canvas.width/2
-    y = 0
+    y = -this.r
     vx = this.x<canvas.width/2? random(5):-random(5)
     vy = 0
     colourr = random(255)
